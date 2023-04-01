@@ -36,7 +36,7 @@ function App() {
       <Modal />
       <section className='quiz'>
         <p className='correct-answers'>
-          correct answers : {correct}/{index}
+          Preguntas correctas : {correct}/{index}
         </p>
         <article className='container'>
           <h2 dangerouslySetInnerHTML={{ __html: question }} />
